@@ -70,3 +70,30 @@
     margin-top: 4px;
     font-weight: bold;
 }
+
+/*Orcamento form*/ 
+.orcamento {
+    background: var(--black);
+    color: var(--yellow);
+    margin-top: 50px;
+    padding-top: 60px;
+}
+
+.subtitulo{
+    color: var(--white);
+    
+}
+
+.subtitulo::after{
+    background-color: var(--white);
+}
+
+
+.form {
+    padding-right: 60px;
+    border-color: var(--yellow);
+}
+
+.form label {
+    display: block;
+}

@@ -21,6 +21,7 @@ img {
 
 .btn {
     border: 3px solid var(--yellow);
+    
     padding: 10px 20px;
     font-size: 14px;
     text-transform: uppercase;
