@@ -1,0 +1,71 @@
+.intro-contato {
+    background: url("../img/fundo-contato.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.orcamento {
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px 0;
+    align-items: center;
+    font-weight: bold;
+}
+
+.form {
+    padding-right: 60px;
+    border-color: var(--yellow);
+}
+
+.form label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form input, .form textarea {
+    display: block;
+    width: 100%;
+    border: 4px solid var(--yellow);
+    background: none;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    outline: none;
+}
+.form textarea {
+    height: 120px;
+}
+
+.form button {
+    background: none;
+    padding: 7px 40px;
+}
+
+.orcamento-dados h3{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--yellow);
+}
+
+.orcamento-dados span {
+    display:  block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.orcamento-dados p {
+    margin: 8px 0 ;
+}
+
+.dados-email {
+    margin-bottom: 40px;
+}
