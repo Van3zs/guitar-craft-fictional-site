@@ -1,0 +1,88 @@
+@media only screen and (min-width: 768px ) and (max-width: 956px) {
+    /*qualidade home*/
+    .qualidade::after {
+        left: 63px;
+    }
+
+    /*Footer*/
+    .contato{
+        margin-left: -20px;
+    }
+
+    .redes {
+        margin-left: 35px;
+    }
+
+    .redes-sociais i {
+        font-size: 30px;
+        padding: 3px;
+    
+    }
+    
+}
+/*Estilo para smartphones*/
+@media only screen and (max-width: 767px) {
+    /*header*/
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    header img {
+        margin: 5px auto;
+    }
+
+    .header_nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header_nav ul li {
+        margin: 0;
+    }
+    
+    .header_nav ul li a {
+        border: 4px solid var(--black);
+        width: 140px;
+        display: block;
+        float: left;
+    }
+
+    .header_nav ul li a:hover{
+        border: 4px solid var(--white);
+    }
+
+    /* Intro*/
+
+    .intro, .intro-interna {
+        margin-top: 0px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    /*Produtos home*/
+
+   .call {
+        padding-top: 20px;
+    }
+
+    /*Portfolio home*/
+    .portfolio {
+        padding-bottom: 60px;
+    }
+    .portfolio ul li img:last-child {
+        height: 260px;
+    }
+
+    /*Qualidade home*/
+    .qualidade::after {
+       display: none;
+    }
+
+    .qualidade .call {
+        padding:10px 0 40px;
+    }
+
+}
