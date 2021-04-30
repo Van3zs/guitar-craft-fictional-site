@@ -22,6 +22,8 @@
 }
 /*Estilo para smartphones*/
 @media only screen and (max-width: 767px) {
+                                                            /*HOME*/
+
     /*header*/
     .header {
         position: relative;
@@ -83,6 +85,35 @@
 
     .qualidade .call {
         padding:10px 0 40px;
+    }
+
+                                                                    /*SOBRE */
+
+  /*- visao*/
+
+  .missao {
+    padding-right: 0px;
+    }
+    .sobre-imagem img {
+        display: none;
+    }  
+
+    .qualidade-sobre {
+        background-color: black;
+        display: block;
+        color: white;
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .qualidade h2 {
+        color: white;
+        padding-top: 20px;
+    }
+
+    .subtitulo::after, .qualidade-list li h3::after{
+        background-color: white;
     }
 
 }
