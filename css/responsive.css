@@ -174,4 +174,13 @@
         font-weight: bold;
     }
 
+                                    /*CONTATO*/
+    .form {
+        padding-right: 0px
+    }
+
+    .orcamento-dados h3{
+        margin-top: 40px;
+    }
+
 }
