@@ -18,6 +18,26 @@
         padding: 3px;
     
     }
+
+                                        /*PRODUTOS*/
+    .produto-icone {
+        height: 222px;
+        width: 210px;
+    }
+    .produto-icone img {
+        width: 160px;
+    }
+    .produto-foto02 img {
+        height: 280px;
+    }
+    .produto-info ul li {
+        background-color: var(--yellow);
+        display: inline-block; 
+        width: 179.7px;
+        padding: 10px 0;
+        margin-top: 4px;
+        font-weight: bold;
+    }
     
 }
 /*Estilo para smartphones*/
@@ -87,16 +107,19 @@
         padding:10px 0 40px;
     }
 
-                                                                    /*SOBRE */
+                                                     /*SOBRE */
 
   /*- visao*/
 
   .missao {
     padding-right: 0px;
     }
+
     .sobre-imagem img {
         display: none;
-    }  
+    } 
+    
+    /*qualidade*/
 
     .qualidade-sobre {
         background-color: black;
@@ -114,6 +137,41 @@
 
     .subtitulo::after, .qualidade-list li h3::after{
         background-color: white;
+    }
+
+                                    /*PRODUTOS*/
+    
+    .produto-item h2 {
+        font-size: 24px;
+        top: -95px;
+        text-align: center;
+        margin-bottom: -56px;
+        
+    }
+
+    .produto-icone {
+        height: 220px;
+        
+    }
+    
+    .produto-icone img {
+        width: 170px;
+        padding-top: 20px;
+    }
+
+    .produto-info ul {
+        position: relative;
+        top: -17px;
+        
+    }
+    
+    .produto-info ul li {
+        background-color: var(--yellow);
+        display: inline-block; 
+        width: 147.78px;
+        padding: 8px 0;
+        margin-top: 4px;
+        font-weight: bold;
     }
 
 }

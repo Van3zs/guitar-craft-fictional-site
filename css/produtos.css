@@ -38,6 +38,7 @@
 .produto-icone {
     background-color: var(--black);
     height: 280px;
+    
 }
 
 .produto-icone img {
@@ -66,6 +67,7 @@
     background-color: var(--yellow);
     display: inline-block; 
     width: 227.7px;
+    text-align: center;
     padding: 15px 80px;
     margin-top: 4px;
     font-weight: bold;
