@@ -1,16 +1,11 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/responsive.css">
     
     <script>document.documentElement.classList.add('js');</script>
     <script src="https://kit.fontawesome.com/7efb2d03fe.js" crossorigin="anonymous"></script>
@@ -41,22 +36,28 @@
         </div>
     </section>
 
-    <section class="orcamento fadeInDown" data-anime="1700" >
+    <section class="orcamento-contato fadeInDown" data-anime="1700" >
         <div class="container">
-            <form action="" id="form-orcamento" class="grid-8 form">
+            <form action="" id="form-orcamento" method="POST" action="enviar.php" class="grid-8 form formphp">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" name="nome" required>
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="email" id="email" name="email" required>
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="text" id="telefone" name="telefone">
+
+                <label for="leaveblank" class="nao-aparece">Se voce nao e um robo, deixe em branco</label>
+                <input type="text" class="nao-aparece" id="leaveblank" name="leaveblank">
+
+                <label for="leaveblank" class="nao-aparece">Se voce nao e um robo, nao mude este campo</label>
+                <input type="text" class="nao-aparece" id="leaveblank" name="dontchange">
 
                 <label for="especs">Especificacoes</label>
-                <textarea name="especs" id="especs" cols="30" rows="10"></textarea>
+                <textarea name="especs" id="especs" cols="30" rows="10" required></textarea>
 
-                <button class="btn btn-preto" type="submit">Enviar</button>
+                <button class="btn btn-preto" type="submit" id="enviar" name="enviar">Enviar</button>
             </form>
             <div class="orcamento-dados grid-8">
                 <h3>Dados</h3>
@@ -66,10 +67,6 @@
                 <span>Rio de Janeiro, Brazil.</span>
             </div>
         </div>
-    </section>
-
-    <section>
-        <a href=""><</a>
     </section>
 
     <section class="pre-footer">
@@ -116,6 +113,7 @@
     </footer>
 
     <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
